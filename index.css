@@ -1,0 +1,30 @@
+.full {
+    background: url('2233.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.container{
+    margin-top: 10%;
+}
+
+body{
+    font-family: 'Open Sans', 'Microsoft Yahei', 'Microsoft Yahei Mono', 'WenQuanYi Micro Hei',
+    'WenQuanYi Micro Hei Mono', sans-serif;
+}
+
+.footer{
+    color: #999;
+    text-align: center;
+    bottom: 0px;
+}
+
+h1{
+    color: #999;
+}
+
+p{
+    color: #999;
+}

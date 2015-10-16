@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<htm>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>bilibili comment search</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.js"></script>
+    <script src="2233.js"></script>
+</head>
+<body class="full">
+    <div class="container">
+        <div class="jumbotron" style="background:rgba(255, 255, 255, 0.7);">
+            <div class="page-header">
+                <h2>bilibili弹幕反匿名搜索器</h2>
+                <h4>Beta 1.0 暂不支持多P视频</h4>
+            </div>
+            <div id="inputs">
+                <form role="form" id="form">
+                    <div class="role">
+                        <div class="col-sm-5">
+                            <div class="form-group input-group">
+                                <label class="sr-only" for="aid">地址栏：http://www.bilibili.com/video/av*****</label>
+                                <span class="input-group-addon">av</span>
+                                <input type="text" id="aid" class="form-control"
+                                       name="aid" placeholder="请输入av号 纯数字">
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="form-group input-group">
+                                <label class="sr-only" for="comt">复制整条评论，暂仅支持精确搜索</label>
+                                <span class="input-group-addon">弹幕</span>
+                                <input type="text" id="comt" class="form-control" name="comment"
+                                       placeholder="请复制整条弹幕">
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <input type="button" class="btn" value="click" onclick="getjson();">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="srr">
+            <p>感谢 bilibilijj的api支持，背景版权归<a href="http://www.bilibili.com"> bilibili</a>所有</p>
+            <p>此站仅供学习交流，请勿借此站引战。Some right reserved: Maxinewell m@bili2233.com</p>
+        </div>
+    </footer>
+</body>
+</htm>
